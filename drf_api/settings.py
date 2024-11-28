@@ -37,7 +37,9 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net']
 
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net'
+]
 
 
 
