@@ -37,6 +37,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net']
 
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net']
+
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
