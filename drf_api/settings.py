@@ -67,7 +67,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net', 'localhost', 'drf-api-vretinger.herokuapp.com']
+ALLOWED_HOSTS = ['8000-vretinger-drfapi-h8zgojbjsxn.ws.codeinstitute-ide.net', 'localhost', 'drf-api-vretinger-341794286bbb.herokuapp.com']
 
 
 CSRF_TRUSTED_ORIGINS = [
